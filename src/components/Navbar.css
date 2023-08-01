@@ -1,0 +1,41 @@
+
+
+nav {
+    background-color: #223;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-right: 20px;
+}
+
+.navbar-links li:last-child {
+    margin-right: 0;
+}
+
+.navbar-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-links li a:hover {
+    font-weight: bold;
+}
